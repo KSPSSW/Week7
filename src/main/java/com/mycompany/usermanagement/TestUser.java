@@ -35,5 +35,10 @@ public class TestUser {
        
         System.out.println("***********************");
         UserService.printList();
+        
+        System.out.println(UserService.getUserById(3));
+        UserService.deleteUser(1);
+        UserService.printList();
+        
     }
 }
